@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style
+* 	Template Style 
 *
 * ======================================================= */
 body {
@@ -91,21 +91,17 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 24px;
   margin: 0;
   padding: 0;
+  text-transform: uppercase;
   font-weight: bold;
   font-weight: 700;
   font-family: "Work Sans", Arial, sans-serif;
 }
-#fh5co-logo a img {
-  width: 50px;
-}
-#fh5co-logo a span {
-  padding-left: 10px;
+.fh5co-nav #fh5co-logo a span {
   color: #F95959;
 }
 .fh5co-nav a {
   padding: 5px 10px;
   color: #000;
-  line-height: 60px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav .menu-1 {
@@ -547,9 +543,6 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-consult .choose {
   width: 50%;
   padding: 40px;
-}
-#fh5co-content .container .choose {
-    width: 100%;
 }
 
 .services {
@@ -1213,7 +1206,7 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 25px;
   cursor: pointer;
   text-decoration: none;
-  top: 34px !important;
+  top: 25px !important;
 }
 .fh5co-nav-toggle.active i::before, .fh5co-nav-toggle.active i::after {
   background: #444;

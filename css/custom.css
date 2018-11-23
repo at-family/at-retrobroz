@@ -1,0 +1,38 @@
+.fh5co-nav #fh5co-logo {
+  text-transform: none;
+}
+
+#fh5co-logo a img {
+  width: 50px;
+}
+#fh5co-logo a span {
+  padding-left: 10px;
+}
+
+.fh5co-nav a {
+  line-height: 60px;
+}
+
+#fh5co-content -container .choose {
+  width: 100%;
+}
+
+.fh5co-nav-toggle {
+  top: 34px !important;
+}
+.desc [class^="icon-"] {
+  font-size: initial;
+  font-weight: bold;
+}
+
+#fh5co-about,
+#fh5co-practice,
+#fh5co-testimonial,
+#fh5co-started,
+#fh5co-project,
+#fh5co-blog,
+#fh5co-contact,
+#fh5co-footer {
+  padding-bottom: 1em;
+  padding-top: 2em;
+}
